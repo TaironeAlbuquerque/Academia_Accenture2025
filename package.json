@@ -1,0 +1,31 @@
+{
+  "name": "academia_accenture2025",
+  "version": "1.0.0",
+  "description": "Desafio Técnico Cypress - Academia Accenture 2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:headless": "cypress run --headless",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox"
+  },
+  "keywords": ["cypress", "cucumber", "automation", "testing", "accenture"],
+  "author": "Academia Accenture 2025",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "@faker-js/faker": "^8.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/step_definitions",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
