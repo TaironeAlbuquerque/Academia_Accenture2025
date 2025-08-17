@@ -1,0 +1,193 @@
+[
+  {
+    "description": "  Como um usuário do sistema\n  Quero ser capaz de adicionar, editar e excluir registros na tabela web\n  Para gerenciar os dados de forma eficiente",
+    "keyword": "Funcionalidade",
+    "name": "Gerenciamento de Registros na Tabela Web",
+    "line": 2,
+    "id": "gerenciamento-de-registros-na-tabela-web",
+    "tags": [],
+    "uri": "webtables.feature",
+    "elements": [
+      {
+        "id": "gerenciamento-de-registros-na-tabela-web;adicionar-um-novo-registro",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Adicionar um novo registro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu acesso a página de Web Tables",
+            "result": {
+              "status": "passed",
+              "duration": 18219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 9,
+            "name": "eu clico no botão \"Add\"",
+            "result": {
+              "status": "passed",
+              "duration": 2265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "eu preencho o formulário de registro com dados válidos",
+            "result": {
+              "status": "passed",
+              "duration": 2738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "eu clico no botão \"Submit\"",
+            "result": {
+              "status": "passed",
+              "duration": 3176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 12,
+            "name": "o novo registro deve ser exibido na tabela",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-registros-na-tabela-web;editar-um-registro-existente",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Editar um registro existente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 15,
+            "name": "que eu acesso a página de Web Tables",
+            "result": {
+              "status": "passed",
+              "duration": 22040000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 16,
+            "name": "que existe um registro na tabela",
+            "result": {
+              "status": "passed",
+              "duration": 8342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 17,
+            "name": "eu clico no botão de edição do registro",
+            "result": {
+              "status": "passed",
+              "duration": 2325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "eu atualizo o formulário de registro com novos dados válidos",
+            "result": {
+              "status": "passed",
+              "duration": 2865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 19,
+            "name": "eu clico no botão \"Submit\"",
+            "result": {
+              "status": "passed",
+              "duration": 3214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 20,
+            "name": "o registro deve ser atualizado na tabela",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-registros-na-tabela-web;excluir-um-registro-existente",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Excluir um registro existente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 23,
+            "name": "que eu acesso a página de Web Tables",
+            "result": {
+              "status": "passed",
+              "duration": 23259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 24,
+            "name": "que existe um registro na tabela",
+            "result": {
+              "status": "passed",
+              "duration": 8238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 25,
+            "name": "eu clico no botão de exclusão do registro",
+            "result": {
+              "status": "passed",
+              "duration": 2274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 26,
+            "name": "o registro deve ser removido da tabela",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
